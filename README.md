@@ -18,6 +18,7 @@ $mysql -u root -p
 mysql> create database post;
 mysql> use post;
 mysql> source /Users/mac/Code/JavaWorkspace/web-security-master/sql/post.sql;
+```
 
 CSRF模块备注：
 * csrf-defence的deletePost2.html对应/post2/{id}接口；该接口未做CSRF防御。
