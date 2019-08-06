@@ -23,7 +23,8 @@ mysql> source /Users/mac/Code/JavaWorkspace/web-security-master/sql/post.sql;
 CSRF模块备注：
 * csrf-defence的deletePost2.html对应/post2/{id}接口；该接口未做CSRF防御。
 * csrf-defence的deletePost.html对应/post/{id}接口；该接口已经做CSRF防御。
-`
+
+
 参考链接：
 * [常见web攻击总结](https://www.cnblogs.com/morethink/p/8734103.html#CSRF)
 * [/morethink/web-security](https://github.com/morethink/web-security)（源码修改自该GitHub项目）
